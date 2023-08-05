@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <i><h1>BIRYANI CAFE</h1></i>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's new</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+           <div class="textBox">
+            <h2>Welcome to the world class Biryani center. </h2>
+            <p>Our restaurent invites you to taste the best biryani recipe and other delicious dishes with incredible offers for every memorable occasion.Visit our cafe and try the world best class dishes from this moment.</p>
+            <a href="#">LearnMore</a>  
+           </div>
+
+           <div class="imgBx">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="biryani2.png" height="500" width="600"></div>
+                  <div class="swiper-slide"><img src="mutton biryani.png" height="500" width="700"></div>
+                  <div class="swiper-slide"><img src="jeera rice.png" height="400" width="500"></div>
+                  <div class="swiper-slide"><img src="paya.png" height="400" width="700"></div>
+                  <div class="swiper-slide"><img src="salad.png" height="600" widyh="400"></div>
+                  <div class="swiper-slide"><img src="dessert.png" height="500" width="400"></div>  
+                </div>
+              </div>
+           </div>
+
+        </div>
+            <ul class="sci">
+                <li><a href="#"><img src="facebook.jpg" height="20" width="20"></a></li>
+                <li><a href="#"><img src="insta.jpg" height="20" width="20"></a></li>
+            </ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 0,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+        
+    
+</body>
+</html>
